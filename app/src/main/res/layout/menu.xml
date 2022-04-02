@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CCA397"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/ivRs"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="#E6D1D1"
+            android:onClick="clickRs"
+            android:src="@drawable/ic_hospital" />
+
+        <ImageView
+            android:id="@+id/ivpolice"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="#030304"
+            android:onClick="clickpolice"
+            android:src="@drawable/ic_police" />
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/ivAirport"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="#030304"
+            android:onClick="clickAirport"
+            android:src="@drawable/ic_airport" />
+
+        <ImageView
+            android:id="@+id/ivmasjid"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="#E6D1D1"
+            android:onClick="clickmasjid"
+            android:src="@drawable/ic_masjid" />
+    </TableRow>
+
+</LinearLayout>
